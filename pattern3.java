@@ -7,9 +7,9 @@ public class pattern3 {
         int rows=sc.nextInt();
         System.out.println("Enter number of columns:");
         int cols=sc.nextInt();
-        for(int i=0;i<rows;i++)
+        for(int i=1;i<=rows;i++)
         {
-            for(int j=0;j<=i;j++)
+            for(int j=1;j<=i;j++)
             {
                 System.out.print(j+" ");
             }
